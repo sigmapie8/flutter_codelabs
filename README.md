@@ -22,3 +22,12 @@ Learn how to build rich scrolling experiences in Flutter. We explore slivers and
 
 ![End Result For the Sliver Workshop](./readme_images/sliver-workshop-result.png)
 
+## How to manage application states using inherited widgets | Workshop (inherited-widget-workshop)
+
+https://www.youtube.com/watch?v=LFcGPS6cGrY
+
+https://dartpad.dev/workshops.html?webserver=https://dartpad-workshops-io2021.web.app/inherited_widget
+
+Learn how to use inherited widgets to implement your own state management solutions. With a sample flutter application, we go through the steps needed to implement a state management system.
+
+![End Result For the Inherited Widget Workshop](./readme_images/inherited-widget-workshop-result.png)

@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_codelabs/inherited-widget-workshop/my_store_page.dart';
 import 'package:flutter_codelabs/patterns-codelab/document_app.dart';
 import 'package:flutter_codelabs/sliver-workshop/horizon_app.dart';
 
 void main() {
-  // if (!kIsWeb && (Platform.isWindows || Platform.isLinux || Platform.isMacOS)) {
-  //   WidgetsFlutterBinding.ensureInitialized();
-  //   setWindowMinSize(const Size(800, 500));
-  // }
-
   runApp(const MainApp());
 }
 
@@ -16,12 +12,13 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      // patterns-codelab
-      // home: DocumentApp(),
-      //
-      // sliver-workshop
-      home: HorizonApp(),
-    );
+    // sliver-workshop
+    // return const HorizonApp();
+    //
+    // patterns-codelab
+    // return const DocumentApp();
+    //
+    // inherited-widget-workshop
+    return const MyStorePage();
   }
 }
